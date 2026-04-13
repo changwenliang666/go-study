@@ -48,6 +48,7 @@ func main() {
 	slice2 = deleteToHead(slice2, 1)             // 从头部删除元素
 	slice2 = deleteToEnd(slice2, 3)              // 从尾部删除元素
 	slice2 = deleteToMiddle(slice2, 1, 4)
+	slice2 = append(slice2, []int{-2, -1}...)
 	fmt.Println(slice2)
 }
 

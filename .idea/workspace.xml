@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5d39cd0-7293-42c9-8de6-07fe967f99d7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/arrayAndSlice/index.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="c5d39cd0-7293-42c9-8de6-07fe967f99d7" name="更改" comment="学习切片的删除和插入操作">
+      <change afterPath="$PROJECT_DIR$/coroutine/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeTo/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayAndSlice/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/切片和数组/index.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,10 @@
     &quot;accountId&quot;: &quot;e940a3cd-66ea-4af7-896e-c98c2c5ca947&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,6 +55,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultGoTemplateProperty": "Go File",
     "Go 构建.go build go-study.executor": "Run",
+    "Go 构建.go build go-study/fuxi.executor": "Run",
+    "Go 构建.go build go-study/typeTo.executor": "Run",
+    "Go 构建.go build go-study/并发.executor": "Run",
+    "Go 构建.go build go-study/类型转换.executor": "Run",
+    "Go 构建.go build index.go (1).executor": "Run",
+    "Go 构建.go build index.go (2).executor": "Run",
     "Go 构建.go build index.go.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
@@ -62,10 +74,11 @@
     "git-widget-placeholder": "main",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/Users/changwenliang",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Go 构建.go build index.go">
+  <component name="RunManager" selected="Go 构建.go build go-study/typeTo">
     <configuration name="go build go-study" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="go-study" />
       <working_directory value="$PROJECT_DIR$" />
@@ -75,22 +88,66 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-study/并发" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-study/并发" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/并发/index.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-study/类型转换" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-study/类型转换" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/类型转换/index.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-study/typeTo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-study/typeTo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/typeTo/index.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build index.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-study" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/coroutine/index.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build index.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-study" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go-study" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/arrayAndSlice/index.go" />
+      <filePath value="$PROJECT_DIR$/切片和数组/index.go" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go 构建.go build go-study" />
+      <item itemvalue="Go 构建.go build go-study/typeTo" />
+      <item itemvalue="Go 构建.go build go-study/类型转换" />
+      <item itemvalue="Go 构建.go build go-study/并发" />
+      <item itemvalue="Go 构建.go build index.go (2)" />
       <item itemvalue="Go 构建.go build index.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build go-study/typeTo" />
+        <item itemvalue="Go 构建.go build go-study/类型转换" />
         <item itemvalue="Go 构建.go build index.go" />
+        <item itemvalue="Go 构建.go build index.go (2)" />
+        <item itemvalue="Go 构建.go build go-study/并发" />
       </list>
     </recent_temporary>
   </component>
@@ -114,5 +171,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="学习切片的删除和插入操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习切片的删除和插入操作" />
   </component>
 </project>
